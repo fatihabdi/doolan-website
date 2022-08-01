@@ -41,6 +41,8 @@ section {
   text-align: center;
   float: none;
   color: #222222;
+  justify-content: center;
+  display: flex;
 }
 
 .navbar-brand {
@@ -288,6 +290,14 @@ u {
 .card-body .name2 img {
   margin-right: 30px;
   border-radius: 50%;
+}
+
+/* Tagline */
+
+.tagline {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Footer */
